@@ -1,0 +1,1571 @@
+/* <-------------------------------home-----------------------------> */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+.home
+{
+    width: 100%;
+    height: 740px;
+    /* background-color: #123552; */
+    transition: all 1s;
+    display: flex;
+    position: absolute;
+}
+.main
+{
+    width: 50%;
+    height: 765px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    position: fixed;
+    /* border-right: solid 0.2px #FFF; */
+}
+.scroll
+{
+    width:50%;
+    height: fit-content;
+    padding-top: 50px;
+    color: #FFF;
+    position: absolute;
+    /* background-color: white; */
+    left: 50%;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 1s;
+}
+.scroll h1
+{
+    width: fit-content;
+    border-bottom: 2px solid #018F1B;
+}
+.main h1
+{
+    width: 500px;
+    height: fit-content;
+}
+.photo
+{
+    width: 30%;
+    height: fit-content;
+    border: 5px solid #018F1B;
+    padding: 15px;
+    /* margin-left: 150px; */
+}
+.text
+{
+    width: 50%;
+    height: fit-content;
+    line-height: 1.5;
+    padding: 20px;
+}
+.text button
+{
+    background-color: #018F1B;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    transition: 0.4s;
+}
+.text button:hover
+{
+    background-color: #FFF;
+    border-radius: 25px;
+}
+.text p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#car
+{
+    color: #018F1B;
+    animation: blink .7s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%
+    {
+        opacity: 0%;
+    }
+}
+
+/* <---------------------------ABOUT---------------------------> */
+
+/* .about {
+    padding-top: 70px;
+    height: fit-content;
+    background-color: black;
+    transition: all 1s;
+} */
+.about h1
+{
+    width: fit-content;
+    border-bottom: 2px solid #796b56;
+}
+
+.whole {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 90px; */
+}
+
+.bio {
+    width: 85%;
+    height: fit-content;
+    line-height: 2;
+    padding: 20px;
+    /* border-left: 2px solid #5C5141; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bio h1 {
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bio button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: #FFF;
+    width: fit-content;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+.bio button:hover {
+    background-color: #018F1B;
+    color: black;
+}
+
+.bio p {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.detail {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.detail .d1 li {
+    list-style-type: none;
+    color: #FFF;
+    font-size: larger;
+    border-bottom: 1.5px solid #5C5141;
+    width: 300px;
+}
+
+.detail .d1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.detail .d2 li {
+    list-style-type: none;
+    color: #FFF;
+    font-size: larger;
+    border-bottom: 1.5px solid #5C5141;
+    width: 300px;
+
+}
+
+.detail .d2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.edu {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.education {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.education h1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 2px solid #796b56;
+    margin-right: 580px;
+}
+
+.skill {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skill h1 {
+    border-bottom: 2px solid #796b56;
+    width: fit-content;
+}
+
+.education .box {
+    width: 60%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    position: relative;
+    gap: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-left: 2px solid #018F1B;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 400px;
+    gap: 8px;
+}
+
+.box .box1::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left: -8px;
+    top: 30px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 400px;
+    gap: 10px;
+}
+
+.box .box2::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 60%;
+    left: -8px;
+    top: 140px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 400px;
+    gap: 10px;
+}
+
+.box .box3::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 60%;
+    left: -8px;
+    top: 252px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.education .webd {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.education .vec {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.education .prpc {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.softwares {
+    width: 80%;
+    /* border: 2px solid #796b56; */
+    border-radius: 20px;
+    /* background-color: #796b56; */
+    padding: 10px;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.softwares h2 {
+    padding: 5px;
+}
+
+.softwares .node
+{
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.softwares .mongodb
+{
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.softwares .html {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.softwares .css {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .bootstrap {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .javascript {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .jquery {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.softwares .react {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .photoshop {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .wordpress {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .figma {
+    width: 14%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <------------------------------------------projects--------------------------------------> */
+
+.project {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-family: 'Fira Code', monospace;
+    padding-top: 30px;
+}
+
+.project1 {
+    width:35%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project1.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis1 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis1 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis1 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+
+.project2 {
+    width:35%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project2.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis2 button {
+    width: 120px;
+    height: 30px;
+    /* background-color: black; */
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis2 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project3 {
+    width:35%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project3.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis3 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis3 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis3 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project4 {
+    width:35%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project4.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis4 button {
+    width: 120px;
+    height: 30px;
+    /* background-color: black; */
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis4 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis4 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project5 {
+    width:35%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project5.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px #018F1B;
+}
+
+.dis5 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis5 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis5 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+/* --------------------------------------contact------------------------------------- */
+
+
+.contact {
+    width: 100%;
+    transition: all 1s;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact .con{
+    width: fit-content;
+    border-bottom: 2px solid #018F1B;
+    color: #FFF;
+}
+
+.query {
+    width: 100%;
+    height: 880px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query h1{
+    color: #018F1B;
+}
+
+.medium {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.mail {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.linked {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #018F1B;
+}
+
+.email button {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #FFF;
+    background-color: black;
+    border: 2px solid #FFF;
+    outline: none;
+    transition: 0.4s;
+}
+.email input::placeholder{
+    color: black;
+}
+
+.email button:hover {
+    background-color: #018F1B;
+    color: black;
+    opacity: 2;
+}
+
+#name {
+    width: 300px;
+    height: 30px;
+    background-color: #FFF;
+    color: #018F1B;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#email {
+    width: 300px;
+    height: 30px;
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #018F1B;
+}
+
+#sub {
+    width: 625px;
+    height: 30px;
+    background-color: #FFF;
+    color: #018F1B;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#content {
+    width: 625px;
+    height: fit-content;
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #018F1B;
+}
+
+
+
+/* -----------------------------------------responsive----------------------------------------- */
+
+
+
+@media screen and (min-width:300px) and (max-width:1100px){
+    /* <-------------------------------home-----------------------------> */
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: black;
+}
+.home
+{
+    width: 100%;
+    height: fit-content;
+    transition: all 1s;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+
+}
+.main
+{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position:static;
+    align-items: center;
+    color: #FFF;
+    font-size: 15px;
+}
+.scroll
+{
+    width:100%;
+    height: fit-content;
+    color: #FFF;
+    display: flex;
+    position: static;
+    flex-direction: column;
+    padding-left: 10px;
+    gap: 20px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transition: all 1s;
+}
+.scroll h1
+{
+    width: fit-content;
+    border-bottom: 2px solid #018F1B;
+}
+.main h1
+{
+    width: 800px;
+    height: fit-content;
+    background: none;
+}
+.photo
+{
+    width: 40%;
+    height: fit-content;
+    border: 5px solid #018F1B;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 15px 5px #018F1B;
+    /* margin-left: 150px; */
+}
+.text
+{
+    width: 70%;
+    height: fit-content;
+    line-height: 1.5;
+    padding: 20px;
+    background: none;
+}
+.text button
+{
+    background-color: #018F1B;
+    border: none;
+    padding: 10px;
+    font-size: large;
+    transition: 0.4s;
+}
+.text button:hover
+{
+    background-color: #FFF;
+    border-radius: 25px;
+}
+.text p
+{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#car
+{
+    color: #018F1B;
+    animation: blink .7s linear infinite;
+}
+@keyframes blink{
+    0%{
+        opacity: 100%;
+    }
+    50%
+    {
+        opacity: 0%;
+    }
+}
+
+/* <---------------------------ABOUT---------------------------> */
+
+/* .about {
+    padding-top: 70px;
+    height: fit-content;
+    background-color: black;
+    transition: all 1s;
+} */
+.about h1
+{
+    width: fit-content;
+    border-bottom: 2px solid #796b56;
+}
+
+.whole {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding-top: 90px; */
+}
+
+.bio {
+    width: 85%;
+    height: fit-content;
+    line-height: 2;
+    padding: 20px;
+    /* border-left: 2px solid #5C5141; */
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.bio h1 {
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.bio button {
+    text-decoration: none;
+    padding: 10px;
+    background-color: black;
+    color: #FFF;
+    width: fit-content;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+    transition: 0.4s;
+}
+
+.bio button:hover {
+    background-color: #018F1B;
+    color: black;
+}
+
+.bio p {
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 18px;
+}
+
+.detail {
+    width: 90%;
+    height: fit-content;
+    display: flex;
+    padding-top: 50px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.detail .d1 li {
+    list-style-type: none;
+    color: #FFF;
+    font-size: larger;
+    border-bottom: 1.5px solid #5C5141;
+    width: 300px;
+}
+
+.detail .d1 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.detail .d2 li {
+    list-style-type: none;
+    color: #FFF;
+    font-size: larger;
+    border-bottom: 1.5px solid #5C5141;
+    width: 300px;
+
+}
+
+.detail .d2 {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    gap: 30px;
+    padding-top: 30px;
+}
+
+.edu {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.education {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.education h1 {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    border-bottom: 2px solid #796b56;
+    margin-right: 580px;
+}
+
+.skill {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    color: #FFF;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.skill h1 {
+    border-bottom: 2px solid #796b56;
+    width: fit-content;
+}
+
+.education .box {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: start;
+    position: relative;
+    gap: 45px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    border-left: 2px solid #018F1B;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    /* text-align: start; */
+    width: 200px;
+    gap: 8px;
+}
+
+.box .box1::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    left: -8px;
+    top: 0px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.box2 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 200px;
+    gap: 10px;
+}
+
+.box .box2::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 60%;
+    left: -8px;
+    top: 125px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    width: 200px;
+    gap: 10px;
+}
+
+.box .box3::before {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 60%;
+    left: -8px;
+    top: 252px;
+    content: '';
+    background-color: #018F1B;
+}
+
+.education .webd {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.education .vec {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.education .prpc {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    align-items: center;
+}
+
+.softwares {
+    width: 80%;
+    /* border: 2px solid #796b56; */
+    border-radius: 20px;
+    /* background-color: #796b56; */
+    padding: 10px;
+    display: flex;  
+    flex-wrap: wrap;
+    gap: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.softwares h2 {
+    padding: 5px;
+}
+
+.softwares .node
+{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.softwares .mongodb
+{
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+}
+.softwares .html {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.softwares .css {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .bootstrap {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .javascript {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.softwares .jquery {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.softwares .react {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .photoshop {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .wordpress {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.softwares .figma {
+    width: 30%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* <------------------------------------------projects--------------------------------------> */
+
+.project {
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    font-family: 'Fira Code', monospace;
+    padding-top: 30px;
+}
+
+.project1 {
+    width:60%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project1.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis1 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis1 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis1 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+
+.project2 {
+    width:60%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project2.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis2 button {
+    width: 120px;
+    height: 30px;
+    /* background-color: black; */
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis2 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis2 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project3 {
+    width:60%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project3.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis3 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis3 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis3 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project4 {
+    width:60%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project4.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 35px 5px #018F1B;
+}
+
+.dis4 button {
+    width: 120px;
+    height: 30px;
+    /* background-color: black; */
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis4 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis4 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+.project5 {
+    width:60%;
+    height: 300px;
+    border-radius: 15px;
+    color: #FFF;
+    background-image: url(project5.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 20px 5px #018F1B;
+}
+
+.dis5 button {
+    width: 120px;
+    height: 30px;
+    background-color: black;
+    color: #FFF;
+    border: none;
+    font-family: 'Fira Code', monospace;
+    transition: 0.5s;
+    border: 2px solid #FFF;
+    border-radius: 7px;
+}
+
+.dis5 button:hover {
+    background-color: #018F1B;
+    color: #FFF;
+}
+
+.dis5 {
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background: none;
+}
+
+/* --------------------------------------contact------------------------------------- */
+
+
+.contact {
+    width: 100%;
+    transition: all 1s;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.contact .con{
+    width: fit-content;
+    border-bottom: 2px solid #018F1B;
+    color: #FFF;
+}
+
+.query {
+    width: 100%;
+    height: 880px;
+    text-align: center;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query h1{
+    color: #018F1B;
+}
+
+.medium {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.phone {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+}
+.mail {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+.linked {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: #018F1B;
+}
+
+.email button {
+    width: 120px;
+    height: 40px;
+    border-radius: 8px;
+    padding: 5px;
+    color: #FFF;
+    background-color: black;
+    border: 2px solid #FFF;
+    outline: none;
+    transition: 0.4s;
+}
+.email input::placeholder{
+    color: black;
+}
+
+.email button:hover {
+    background-color: #018F1B;
+    color: black;
+    opacity: 2;
+}
+
+#name {
+    width: 120px;
+    height: 30px;
+    background-color: #FFF;
+    color: #018F1B;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#email {
+    width: 120px;
+    height: 30px;
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #018F1B;
+}
+
+#sub {
+    width: 265px;
+    height: 30px;
+    background-color: #FFF;
+    color: #018F1B;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+}
+
+#content {
+    width: 265px;
+    height: fit-content;
+    background-color: #FFF;
+    border: none;
+    padding: 10px;
+    outline: none;
+    border-radius: 10px;
+    color: #018F1B;
+}
+
+}
